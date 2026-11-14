@@ -36,19 +36,25 @@ Uygulamayı, güncelleme sırasında dosya yazabileceğiniz bir klasörde tutun.
 
 Kod veya parola istenmez. Paylaşım açıkken aynı yerel ağdaki bilgisayarlar doğrudan bağlanabilir. Paylaşımı durdurmak erişimi keser. LANDesk kayıtlı cihazları hatırlar. Cihaz görünmüyorsa **IP ile ekle** seçeneğini kullanın.
 
-Bu bağlantı biçimi için her iki bilgisayarda LANDesk 0.3.4 veya daha yeni sürüm bulunmalıdır.
+Tüm bilgisayarlarda aynı LANDesk sürümünü kullanın. Sürümler farklıysa bağlantı kurulmaz.
 
 ## Fare ve klavye kontrolü
 
 Bağlantı penceresindeki ekran görüntüsüne tıklayın. Fare tıklamaları, sürükleme, kaydırma ve klavye girişleri hedef bilgisayara iletilir.
 
-Görüntü aktarımı 30 FPS hedefler. Pencerenin altındaki FPS değeri, saniyede gösterilen kare sayısını belirtir. Akıcılık bilgisayarların performansına ve ağ bağlantısına bağlıdır.
+Varsayılan görüntü hızı 30 FPS'tir. Her bağlantı penceresinin üstündeki **60 FPS** kutusunu işaretleyerek o ekranın hedefini 60 FPS yapabilirsiniz. Seçimi kaldırınca 30 FPS'ye döner. Pencereler ayrı ayarlanır; tercih bilgisayar bazında kaydedilir ve tekrar bağlantıda hatırlanır.
+
+Pencerenin altındaki FPS değeri, saniyede gösterilen gerçek kare sayısını belirtir; seçili hedef ayrıca gösterilir. Ulaşılabilen hız bilgisayarların performansına ve ağ bağlantısına bağlıdır.
 
 - **F12:** Fare ve klavye kontrolünü açar veya kapatır.
 - **Bağlantıyı kes:** Açık oturumu kapatır.
 - **Paylaşımı durdur:** Hedef bilgisayara erişimi kapatır.
 
-Her hedefe aynı anda bir kontrol oturumu açabilirsiniz. Farklı hedefleri ayrı pencerelerde yönetebilirsiniz.
+Her hedefe aynı anda bir kontrol oturumu açabilirsiniz. Farklı hedefleri ayrı pencerelerde yönetebilirsiniz. Dört bilgisayara sırayla bağlanıp pencereleri ekranda 2×2 yerleştirebilirsiniz. Fare ve klavye, odaktaki pencereyi kontrol eder.
+
+Listedeki **Bağlantı** sütunu **Bağlı**, **Bağlanıyor…**, **Kapandı** veya **Henüz açılmadı** durumunu gösterir. Açılma bilgisi bu uygulama oturumu için tutulur. Zaten bağlı bir bilgisayarı tekrar açtığınızda mevcut bağlantı penceresi gösterilir.
+
+Görüntü GPU ile çizilir. Tamamen örtülen veya görev çubuğuna küçültülen bağlantı pencerelerinin görüntü yükü otomatik azaltılır; yeniden görünür olduklarında seçili 30/60 FPS hedefi geri gelir. Kısmen görünen pencereler normal hızda kalır. GPU kullanılamıyorsa yazılımsal çizimle devam edilir.
 
 ### Sanal klavye/fare (FakerInput)
 
