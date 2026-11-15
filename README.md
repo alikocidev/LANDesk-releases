@@ -56,6 +56,14 @@ Listedeki **Bağlantı** sütunu **Bağlı**, **Bağlanıyor…**, **Kapandı** 
 
 Görüntü GPU ile çizilir. Tamamen örtülen veya görev çubuğuna küçültülen bağlantı pencerelerinin görüntü yükü otomatik azaltılır; yeniden görünür olduklarında seçili 30/60 FPS hedefi geri gelir. Kısmen görünen pencereler normal hızda kalır. GPU kullanılamıyorsa yazılımsal çizimle devam edilir.
 
+### Knight Online uyarıları
+
+Her bağlantı penceresinin üstündeki **Disconnect izle** ve **Respawn izle** kutularını ayrı açabilirsiniz. Seçimler bilgisayar bazında kaydedilir.
+
+Algılanan uyarı bilgisayar adıyla masaüstünde gösterilir ve ses verir. **Kapat** veya **Ekranı göster** düğmesine basana kadar açık kalır. Aynı uyarı ekranda kaldığı sürece tekrar bildirilmez. Ana listede de son uyarı görünür.
+
+LANDesk penceresi küçültülse de izleme sürer. Hedefte oyun ve uyarı görünür olmalı; tanıma ekranın ortasındaki İngilizce Disconnect/Respawn metinleri içindir. Farklı yazı görünümü veya çok küçük görüntülerde ek ayar gerekebilir.
+
 ### Sanal klavye/fare (FakerInput)
 
 Standart giriş yöntemine alternatif olarak FakerInput kullanılabilir. Sürücü yalnızca kontrol edilecek bilgisayara kurulur.
