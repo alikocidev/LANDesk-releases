@@ -58,7 +58,7 @@ Görüntü GPU ile çizilir. Tamamen örtülen veya görev çubuğuna küçült�
 
 ### Knight Online uyarıları
 
-Her bağlantı penceresinin üstündeki **Disconnect izle** ve **Respawn izle** kutularını ayrı açabilirsiniz. Seçimler bilgisayar bazında kaydedilir.
+Her bağlantı penceresinin üstündeki **Disconnect izle** ve **Respawn izle** kutuları varsayılan olarak açıktır. Her birini ayrı kapatabilirsiniz; seçimler bilgisayar bazında kaydedilir. Önceki sürümden ilk geçişte kayıtlı bilgisayarlarda da ikisi açılır.
 
 Algılanan uyarı bilgisayar adıyla masaüstünde gösterilir ve ses verir. **Kapat** veya **Ekranı göster** düğmesine basana kadar açık kalır. Aynı uyarı ekranda kaldığı sürece tekrar bildirilmez. Ana listede de son uyarı görünür.
 
@@ -103,3 +103,4 @@ Windows kilit ve oturum açma ekranları, UAC, yönetici olarak çalışan pence
 Uygulama kendini Windows başlangıcına eklemez. Bilgisayarı yeniden açtığınızda LANDesk'i başlatıp paylaşımı açın.
 
 Kendi bilgisayarınıza bağlanarak görüntü aktarımını deneyebilirsiniz. Yerel giriş döngüsünü önlemek için bu testte fare ve klavye kontrolü kapalı kalır. FakerInput için gerçek tuş, tıklama ve oyun uyumluluğu hedef bilgisayarda ayrıca doğrulanmalıdır.
+
