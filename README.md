@@ -64,6 +64,22 @@ Algılanan uyarı bilgisayar adıyla masaüstünde gösterilir ve ses verir. **K
 
 LANDesk penceresi küçültülse de izleme sürer. Hedefte oyun ve uyarı görünür olmalı; tanıma ekranın ortasındaki İngilizce Disconnect/Respawn metinleri içindir. Farklı yazı görünümü veya çok küçük görüntülerde ek ayar gerekebilir.
 
+Uyarı gelmezse diyalog görünürken **Uyarı tanısını kaydet** düğmesini kullanın. Oluşan ZIP, LANDesk tarafından alınan ekran karesini PNG olarak ve son kontrolleri içerir; sorun incelemesinde kullanılabilir. Alt satırdaki **KO** bilgisi izlemenin kontrol durumunu gösterir.
+
+### Telefon bildirimleri (Telegram)
+
+Ana bilgisayardaki **Telefon bildirimleri** düğmesini açın. Bir defalık kurulum:
+
+1. Telegram'da [BotFather](https://t.me/BotFather) üzerinden `/newbot` ile bir bot oluşturun.
+2. Bot anahtarını LANDesk'e girip **Eşleştirmeyi başlat** düğmesine basın.
+3. Telefondan kendi botunuza ekrandaki kodu mesaj olarak gönderin. **Botu aç** veya **Bağlantıyı kopyala** bağlantısı da aynı eşleştirmeyi başlatabilir.
+4. **Telefonu bul**, ardından **Test bildirimi gönder** düğmesine basın.
+5. Mesajı telefonda gördüğünüzde **Disconnect ve Respawn uyarılarını Telegram üzerinden gönder** kutusunu işaretleyip **Kaydet** düğmesine basın.
+
+Kayıtlı eşleştirme yeşil **Eşleştirme tamamlandı** durumuyla gösterilir. **Telefonu değiştir** farklı bir hesap için yeni eşleştirme başlatır. Test düğmesi otomatik gönderim kutusundan bağımsız bir deneme mesajı gönderir; otomatik uyarı tercihi Kaydet ile uygulanır. Disconnect ve Respawn, bilgisayar adı ve saatle ayrı Telegram mesajları olarak gönderilir. Mevcut masaüstü uyarıları da devam eder. İzleme tercihini her bağlantı penceresinden ayrı değiştirebilirsiniz.
+
+Telefon bildirimleri için ana bilgisayarda LANDesk ve izlenen bağlantılar açık kalmalıdır. Ana bilgisayar ve telefon internete bağlı olmalıdır; telefon mobil veri kullanabilir. Bot anahtarı Windows kullanıcı hesabına bağlı şifrelenerek yerelde saklanır. Gönderim hatası ana ekrandaki Telegram durumunda görünür.
+
 ### Sanal klavye/fare (FakerInput)
 
 Standart giriş yöntemine alternatif olarak FakerInput kullanılabilir. Sürücü yalnızca kontrol edilecek bilgisayara kurulur.
